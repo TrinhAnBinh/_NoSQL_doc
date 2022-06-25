@@ -49,7 +49,7 @@ Hbase cũng là một dạng tiêu biểu của CFD.
 
 Cũng dạng key-value và mỗi value là từng col với từng tính chất và meta data khác nhau.
 
-![Untitled](No-SQL%20419c5dd87ea34590bd9daeff979abbda/Untitled.png)
+![Untitled](imgs/Untitled.png)
 
 ### Architecture
 
@@ -57,7 +57,7 @@ Hbase built on top of hadoop và cũng sẽ chạy trên dạng master shales
 
 Đọc thêm tại page 141
 
-![Untitled](No-SQL%20419c5dd87ea34590bd9daeff979abbda/Untitled%201.png)
+![Untitled](imgs/Untitled%201.png)
 
 ### Operation
 
@@ -98,6 +98,6 @@ Neo4j là một dạng Graph database. Các giới thiệu về cài đặt conn
 
 Non-relational databases or NoSQL databases are popular for applications in which the scale of data involved is massive and the data may not be structured. Furthermore, real-time performance is considered more important than consistency. In this chapter we described four types of NoSQL databases. Figure 4.14 provides a comparison of these four types of NoSQL databases. The key-value databases store data in the form of key-value pairs where the keys are used to identify uniquely the values stored. Hash functions are applied to the key to determine where the value should be stored. Document store databases store semi-structured data in the form of documents which are encoded in different standards such as JSON, XML, BSON or YAML. The benefit of using document databases over key-value databases is that these databases allow efficiently querying the documents based on the attribute values in the documents. Column family databases store data as columns where a column has a name and a value. Columns are grouped into column families and a collection of columns make up a row which is identified by a row-key. Column family databases support high-throughput reads and writes and have distributed and highly available architectures. Graph databases model data in the form of nodes and relationships. Nodes represent the entities in the data model and have a set of attributes. The relationships between the entities are represented in the form of links between the nodes.
 
-![Untitled](No-SQL%20419c5dd87ea34590bd9daeff979abbda/Untitled%202.png)
+![Untitled](imgs/Untitled%202.png)
 
-![Untitled](No-SQL%20419c5dd87ea34590bd9daeff979abbda/Untitled%203.png)
+![Untitled](imgs/Untitled%203.png)
